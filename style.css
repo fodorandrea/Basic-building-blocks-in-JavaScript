@@ -1,0 +1,23 @@
+.box-item {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+  }
+.flex-box-top, .flex-box-bottom {
+    width: 810px;
+    height: 80px;
+    border: 2px solid blue;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+.flex-box-top .box-item {
+  background-color: #2074F4 
+  }
+.flex-box-bottom .box-item {
+    background-color: #5423AF    
+  }
+.flex-box-bottom {
+    background-color: #E3673E;
+  }
